@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87313A7C1D3D381F009DEE88 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87313A7B1D3D381F009DEE88 /* NavigationController.swift */; };
+		87313A7E1D3D387A009DEE88 /* MenuDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87313A7D1D3D387A009DEE88 /* MenuDrawerController.swift */; };
+		87313A801D3D3A0B009DEE88 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87313A7F1D3D3A0B009DEE88 /* MainController.swift */; };
 		877B44181D393510006A92F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877B44171D393510006A92F0 /* AppDelegate.swift */; };
-		877B441A1D393510006A92F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877B44191D393510006A92F0 /* ViewController.swift */; };
-		877B441D1D393510006A92F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 877B441B1D393510006A92F0 /* Main.storyboard */; };
 		877B441F1D393510006A92F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 877B441E1D393510006A92F0 /* Assets.xcassets */; };
 		877B44221D393510006A92F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 877B44201D393510006A92F0 /* LaunchScreen.storyboard */; };
+		87EEC6C71D40248A0092F260 /* DeltaPanGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EEC6C61D40248A0092F260 /* DeltaPanGestureRecognizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		87313A7B1D3D381F009DEE88 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		87313A7D1D3D387A009DEE88 /* MenuDrawerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuDrawerController.swift; sourceTree = "<group>"; };
+		87313A7F1D3D3A0B009DEE88 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		877B44141D393510006A92F0 /* MenuDrawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuDrawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		877B44171D393510006A92F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		877B44191D393510006A92F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		877B441C1D393510006A92F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		877B441E1D393510006A92F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		877B44211D393510006A92F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		877B44231D393510006A92F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87EEC6C61D40248A0092F260 /* DeltaPanGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeltaPanGestureRecognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				877B44171D393510006A92F0 /* AppDelegate.swift */,
-				877B44191D393510006A92F0 /* ViewController.swift */,
-				877B441B1D393510006A92F0 /* Main.storyboard */,
+				87313A7B1D3D381F009DEE88 /* NavigationController.swift */,
+				87313A7F1D3D3A0B009DEE88 /* MainController.swift */,
+				87313A7D1D3D387A009DEE88 /* MenuDrawerController.swift */,
+				87EEC6C61D40248A0092F260 /* DeltaPanGestureRecognizer.swift */,
 				877B441E1D393510006A92F0 /* Assets.xcassets */,
 				877B44201D393510006A92F0 /* LaunchScreen.storyboard */,
 				877B44231D393510006A92F0 /* Info.plist */,
@@ -96,6 +102,7 @@
 				TargetAttributes = {
 					877B44131D393510006A92F0 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 652FKRA3R9;
 					};
 				};
 			};
@@ -124,7 +131,6 @@
 			files = (
 				877B44221D393510006A92F0 /* LaunchScreen.storyboard in Resources */,
 				877B441F1D393510006A92F0 /* Assets.xcassets in Resources */,
-				877B441D1D393510006A92F0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				877B441A1D393510006A92F0 /* ViewController.swift in Sources */,
+				87313A801D3D3A0B009DEE88 /* MainController.swift in Sources */,
+				87313A7C1D3D381F009DEE88 /* NavigationController.swift in Sources */,
+				87313A7E1D3D387A009DEE88 /* MenuDrawerController.swift in Sources */,
+				87EEC6C71D40248A0092F260 /* DeltaPanGestureRecognizer.swift in Sources */,
 				877B44181D393510006A92F0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +152,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		877B441B1D393510006A92F0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				877B441C1D393510006A92F0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		877B44201D393510006A92F0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -251,10 +252,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MenuDrawer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rga.MenuDrawer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -262,10 +266,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MenuDrawer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rga.MenuDrawer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -288,6 +295,7 @@
 				877B44281D393510006A92F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
